@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+  
+
+  body {
+    background-image: url('j.jpg');
+    background-position: center;
+  }
+  .nav{
+    display: flex;
+    justify-content: center;
+    justify-content: center;
+    
+  }
+
+  .nav ul{
+    display: flex;
+  }
+
+  .nav li{
+    list-style: none;
+    
+  }
+  
+  .nav a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  .li{
+    margin: 0px 10px;
+  }
+  .resto{
+   text-align: end;
+   width: 100%; 
+  }
+
+  .formulario{
+    width:400px ;
+    background:	#808080;
+    padding: 30px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    box-shadow: 7px 13px 100px ;
+    
+  }
+
+  .formulario h4{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 27px;
+    margin-bottom: 20px;
+  }
+
+  .input {
+    width: 100%;
+    background: #696969;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 1px solid #808080;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    color:white;
+    display: block;
+  
+  
+  }
+  ::placeholder{
+    color: white;
+   
+  }
+  .formulario p{
+    height: 40px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 14px;
+    line-height: 40px;
+  }
+
+  .formulario a{
+    color: white;
+    text-decoration: none;
+  }
+ 
+  .formulario a:hover{
+    color: white;
+    text-decoration: underline;
+  }
+
+  .formulario .boton{
+    width: 100%;
+    background: #808080;
+    border: none;
+    border-radius: 20px;
+    padding: 12px;
+    box-shadow: 6px 10px 26px 0px rgba(0,0,0,0.36);
+    -webkit-box-shadow: 6px 10px 26px 0px rgba(0,0,0,0.36);
+    -moz-box-shadow: 6px 10px 26px 0px rgba(0,0,0,0.36);
+    color: white;
+    margin: 16px 0;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+  }
+
+  .boton:active{
+    background-color: rgb(18, 17, 16);
+   
+  }
+
+  footer{
+    width: 100%;
+    margin-top: 60px;
+    padding-bottom: 60px;
+
+    display: block;
+   
+  
+  }
+
+  .footer ul{
+    display: flex;
+  }
+
+.footer li{
+  list-style: none;
+}
+.footer a{
+  text-decoration: none;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.footer li{
+  margin: 0px 10px;
+}
+
+.nosotros{
+  margin: 10px 10px;
+  display: flex;
+}
+.nosotros h2{
+  color: white;
+  margin: 10px 10px;
+}
+
+
+.nosotros p{
+  color: white;
+  margin: 10px 10px;
+}
+
+.nosotros h4{
+  color: white;
+  margin: 10px 10px;
+}
+
+h2:hover{
+  color:orchid;
+}
+h4:hover{
+  color: burlywood;
+}
+p:hover{
+  color: aqua;
+}
+
+p{transition: all 0.5s;}
+p:hover{
+  color: aqua; font-size: 40px;
+}
+
+@media(max-whidth:500px){
+  .nosotros{
+    display: block;
+  }
+}
+  
+
+.contacto{
+  color: white;
+}
+
